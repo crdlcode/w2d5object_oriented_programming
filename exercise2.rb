@@ -1,6 +1,6 @@
 class Cat
   def initialize(name, preferred_food, meal_time)
-    @name - name
+    @name = name
     @prefferred_food = preferred_good
     @meal_time = meal_time
   end
@@ -18,4 +18,4 @@ class Cat
 
   def meow
     return "Meow, I am #{@name} and I eat #{@prefferred_food} at #{eat_at}"
-  end 
+  end
